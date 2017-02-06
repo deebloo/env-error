@@ -6,6 +6,8 @@ import { environment } from '../environments/environment';
 import { AppConfig } from './app-config';
 import { AppComponent } from './app.component';
 
+console.log('Direct import', environment);
+
 @NgModule({
   declarations: [
     AppComponent

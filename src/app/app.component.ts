@@ -10,6 +10,7 @@ export class AppComponent {
   title = 'app works!';
 
   constructor(config: AppConfig) {
-    console.log(config.production);
+    // will always be false
+    console.log('From DI', config.production);
   }
 }
