@@ -11,6 +11,6 @@ export class AppComponent {
 
   constructor(config: AppConfig) {
     // will always be false
-    console.log('From DI', config.production);
+    console.log('From DI', config);
   }
 }
